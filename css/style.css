@@ -34,7 +34,7 @@ p {
 }
 
 .parallax{
-  filter: grayscale(0.7) blur(3px) brightness(0.7);
+  filter: grayscale(0.6) blur(1px) brightness(0.7);
 }
 .parallax-container {
   min-height: 460px;
@@ -47,6 +47,12 @@ p {
   }
 .card-ViewMore{
   cursor: pointer;
+}
+.card-rounded{
+  border-radius: 15%;
+}
+.card-image-rounded{
+  border-radius: 20%;
 }
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
