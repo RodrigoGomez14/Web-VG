@@ -29,6 +29,9 @@ p {
   color: #26a69a;
 }
 
+.parallax{
+  filter: blur(2px);
+}
 .parallax-container {
   min-height: 460px;
   line-height: 0;
