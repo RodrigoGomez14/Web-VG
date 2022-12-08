@@ -6,7 +6,7 @@
  * Made By MaterializeCSS.com
  */
 .icon{
-  padding: 15px;
+  padding: 7px;
   border-radius: 50%;
 }
 .header{
@@ -50,10 +50,10 @@ p {
   cursor: pointer;
 }
 .card-rounded{
-  border-radius: 15%;
+  border-radius: 50px;
 }
 .card-image-rounded{
-  border-radius: 20%;
+  border-radius: 50px;
 }
 .centered{
   display: flex;
