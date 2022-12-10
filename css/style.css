@@ -10,7 +10,7 @@
   border-radius: 50%;
 }
 .header{
-  text-shadow: 1px 1px 3px #01579b;
+  text-shadow: 1px 1px 3px #000;
   font-weight: bold;
   color: white;
 }
@@ -71,6 +71,9 @@ p {
   display: flex;
   justify-content:center;
   align-items: center;
+}
+.card-rounded .card-content{
+  border-radius: 50px;
 }
 
 @media only screen and (max-width : 600px) {
