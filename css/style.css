@@ -74,6 +74,13 @@ p {
 }
 .card-rounded .card-content{
   border-radius: 50px;
+  transform: translateY(-30px);
+}
+.card .carousel{
+  background-image: url('/./wave.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .waves{
   background-image: url('/images/wave.png');
@@ -81,6 +88,13 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#index-banner{
+  background-image: url(/./wave3.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-position-y: 300px;
+}
+
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
