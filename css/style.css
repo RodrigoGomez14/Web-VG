@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+ *{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
 .icon{
   padding: 7px;
   border-radius: 50%;
@@ -46,11 +49,15 @@ p {
 .parallax-container .section {
   width: 100%;
 }
+#parallax-slogan{
+  min-height: 350px;
+}
 .card-ViewMore{
   cursor: pointer;
 }
 .card-rounded{
   border-radius: 50px;
+  box-shadow: 5px 5px 5px #607d8b;
 }
 .card-image{
   height: 300px;
@@ -59,7 +66,7 @@ p {
   border-radius: 50px;
 }
 .card .carousel{
-  height: 300px;
+  height: 275px;
 }
 .card .section h6{
   margin:0
@@ -89,10 +96,11 @@ p {
   background-size: cover;
 }
 #index-banner{
-  background-image: url(/./wave3.png);
+  background-image: url(/./wave5.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-position-y: 300px;
+  align-items: flex-end;
 }
 
 @media only screen and (max-width : 600px) {
@@ -111,6 +119,9 @@ p {
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+.icon-title , .icon-text{
+  text-shadow: 1px 1px 5px #eceff1;
 }
 
 footer.page-footer {
