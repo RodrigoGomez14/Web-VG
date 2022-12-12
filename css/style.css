@@ -96,13 +96,13 @@ p {
   background-size: cover;
 }
 .waves{
-  background-image: url('/images/waves/wave-product-carousel.png');
+  background-image: url('/images/waves/wave-product-carousel.webp');
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 #index-banner{
-  background-image: url('../images/waves/wave-banner.png');
+  background-image: url('../images/waves/wave-banner.webp');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
